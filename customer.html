@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="button1">
-            <button type="button" class="btn btn-primary">Add New Customer</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Add New Customer</button>
         </div>
         <div class="button2">
             <button type="button" class="btn btn-danger">Delete</button>
@@ -93,6 +93,42 @@
                     <td>07145698731</td>
                 </tr>
             </table>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Add New Customer</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="card custom-card">
+                    <h5 class="card-header">Customer Form</h5>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Customer ID</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="C005">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Customer Name</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="John Snow">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput4" placeholder="Black Castle">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput5" placeholder="0717085277">
+                        </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Add</button>
+            </div>
         </div>
     </div>
 </div>

@@ -43,12 +43,30 @@ body{
 
 .card2{
     width: 500px;
-    height: 500px;
+    height: 600px;
 
     margin-left: 370px;
+    margin-top: -70px;
+
+    position: absolute;
+}
+
+.card3{
+    width: 290px;
+    height: 400px;
+
+    background-color: white;
+    border-radius: 2%;
+
+    margin-left: 890px;
     margin-top: -70px;
 }
 
 .selector{
     width: 50px;
+}
+
+.h3{
+    padding-left: 10px;
+    padding-top: 22px;
 }
